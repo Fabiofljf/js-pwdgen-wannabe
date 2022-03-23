@@ -1,29 +1,16 @@
 // Chiedere all'utente il suo nome
-const your_name = prompt("What is your name")
-console.log(your_name)
+let yourName = prompt("What is your name")
+console.log(yourName)
 
 // Chiedere all'utente il suo cognome
-const your_lastname = prompt("What is your last name")
-console.log(your_lastname)
+const yourLastname = prompt("What is your last name")
+console.log(yourLastname)
 
 // Chiedere all'utente il suo colore preferito
-const your_color = prompt("What is your prefer color")
-console.log(your_color)
+const yourColor = prompt("What is your prefer color")
+console.log(yourColor)
 
 // Scrivere sulla pagina: fabiopacifirosso22
 
 // scrivo il nome
-const username = "fabio"
-console.log(username)
-
-const userlastname = "pacifi"
-console.log(userlastname)
-
-const color = "rosso"
-console.log(color)
-
-const number = "22"
-console.log(number)
-
-
-document.getElementById('view').innerHTML = "fabio" + "pacifi " + "rosso" + "22"
+document.getElementById('view').innerHTML = yourName + yourLastname + yourColor + "22"
